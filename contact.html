@@ -8,24 +8,52 @@
 			<!--Linking CSS sheets to HTML-->
 			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 		</head>
-<body>
 
-<div id="container">
-			
-	<div id="background">
+		<body>
 
-				<div id="header">About | Portfolio | Contact</div>
+
+			<div id="container">
+			<div id="background">
+
+
+				<div id="header">
+				
+				<a href="index.html">About</a> | 
+				<a href="portfolio.html">Portfolio</a> | 
+				<a href="contact.html">Contact</a>
+				</div>
 
 				<div id="myname">Oscar Chavez</div>
+	
+				
 
-				<div id="Bio">
+  <form action="#"><div class="container">
 
-				<div id="aboutmetext">About Me</div> <hr/></div>
+  	<div id="content">Contact</div> <hr/>
+	<br>
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="John Smith">
+
+    <label for="lname">E-mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="Example@gmail.com">
+
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+    </textarea>
+
+    <input type="submit" value="Submit">
+	</div>
+
+  </form>
+
 
 				<div id="connectlinks">
 
-					Connect With Me<br><hr/>
+					Connect With Me<br>
+					<hr/>
 					<br>
 					<a href="https://github.com/ochavezj" target="_blank">
 					<img src="assets/images/1491827521_github2.png" alt="Oscar's GitHub Profile" style="height: 60px; width: 60px;"></a>
@@ -35,11 +63,12 @@
 
 					<a href="http://stackoverflow.com/users/7781771/oscar-chavez?tab=profile" target="_blank">
 					<img src="assets/images/StackOverFlow.png" alt="Oscar's StackOverflow Profile" style="height: 60px; width: 60px;"></a>
-					
+
 				</div>
+			</div>
+			</div>
 
-	</div>
-</div>
-
+	<footer>Copyright Oscar Chavez 2016</footer>
+		
 </body>
 </html>
